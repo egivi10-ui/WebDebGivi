@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch - Entrepreneurship</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 60px;
+        }
+        .navbar {
+            background-color: #343a40;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .page-header {
+            background: linear-gradient(135deg, #1f6b4f 0%, #2d9c6f 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .page-header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .page-header p {
+            font-size: 1.1rem;
+            opacity: 0.92;
+        }
+        .content-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .card-header {
+            background-color: #1f6b4f;
+            color: white;
+            border: none;
+        }
+        .card-body {
+            padding: 25px;
+        }
+        .badge-custom {
+            background-color: #2d9c6f;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+        .section-intro {
+            font-size: 1.05rem;
+            color: #495057;
+            margin-bottom: 30px;
+        }
+        .video-wrapper,
+        .tableau-wrapper {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .video-wrapper {
+            padding-top: 56.25%;
+            background: #000;
+        }
+        .video-wrapper iframe,
+        .tableau-wrapper iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .tableau-wrapper {
+            min-height: 720px;
+            background: #fff;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer a {
+            color: #2d9c6f;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .nav-link {
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #2d9c6f !important;
+        }
+    </style>
+</head>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Welcome</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="scratch.html">Scratch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="game.html">Game</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>What Entrepreneurship Can Accomplish</h1>
+            <p>Building ideas into impact through innovation, leadership, and meaningful growth.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <p class="section-intro text-center">
+                    Becoming an entrepreneur can lead to much more than starting a business. It can create freedom,
+                    open financial opportunities, solve real problems, and make a lasting difference in communities.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card content-card h-100">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Create Opportunities</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Entrepreneurs turn ideas into companies, products, and services that create jobs and open doors for other people.</p>
+                        <ul>
+                            <li>Launch a business from a personal passion or skill</li>
+                            <li>Create employment for teams and communities</li>
+                            <li>Build new solutions that improve everyday life</li>
+                        </ul>
+                        <div>
+                            <span class="badge badge-custom">Leadership</span>
+                            <span class="badge badge-custom">Innovation</span>
+                            <span class="badge badge-custom">Impact</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card content-card h-100">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Gain Independence</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Entrepreneurship gives people the chance to take control of their future and make decisions about their time, goals, and direction.</p>
+                        <ul>
+                            <li>Choose the mission and vision of your work</li>
+                            <li>Develop confidence through problem-solving</li>
+                            <li>Create a career path based on personal values</li>
+                        </ul>
+                        <div>
+                            <span class="badge badge-custom">Freedom</span>
+                            <span class="badge badge-custom">Ownership</span>
+                            <span class="badge badge-custom">Growth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card content-card h-100">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Build Financial Potential</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>While entrepreneurship includes risk, it also creates the opportunity to build wealth, scale ideas, and create long-term value.</p>
+                        <ul>
+                            <li>Turn a small idea into a scalable business</li>
+                            <li>Create multiple income streams</li>
+                            <li>Build assets that can grow over time</li>
+                        </ul>
+                        <div>
+                            <span class="badge badge-custom">Finance</span>
+                            <span class="badge badge-custom">Strategy</span>
+                            <span class="badge badge-custom">Value Creation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card content-card h-100">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Make a Difference</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Entrepreneurs can use business to solve community problems, serve customers better, and create change that lasts beyond themselves.</p>
+                        <ul>
+                            <li>Support causes and communities through business</li>
+                            <li>Design products that meet real needs</li>
+                            <li>Inspire others to pursue meaningful goals</li>
+                        </ul>
+                        <div>
+                            <span class="badge badge-custom">Service</span>
+                            <span class="badge badge-custom">Community</span>
+                            <span class="badge badge-custom">Purpose</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card content-card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Entrepreneurship in Action</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-4">This video highlights entrepreneurial thinking and how strong ideas can become real ventures with preparation, persistence, and purpose.</p>
+                        <div class="video-wrapper">
+                            <iframe
+                                src="https://www.youtube.com/embed/0SVIkWKSBrM"
+                                title="Entrepreneurship Video"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card content-card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Startup Dashboard</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-4">This embedded Tableau visualization adds a data-driven view of startup and business activity to support the topic of entrepreneurship.</p>
+                        <div class="tableau-wrapper">
+                            <iframe
+                                src="https://public.tableau.com/views/StartupsDashboard_16687947568200/Startups?:showVizHome=no&:embed=true"
+                                title="Tableau Startup Dashboard"
+                                loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="back-to-top-section">
+        <div class="container">
+            <a class="back-to-top-button" href="#page-top">Back to the top</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+            <div>
+                <a href="index.html">Portfolio</a>
+                <a href="resume.html">Resume</a>
+                <a href="scratch.html">Scratch</a>
+                <a href="game.html">Game</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
